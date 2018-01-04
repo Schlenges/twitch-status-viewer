@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Lalezar|Muli');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+    background: #6441a4;
+    padding-top: 1rem;
+    text-align: center;
+    color: white;
+}
+
+h1{
+    font-size: 2rem;
+    font-family: Lalezar;
+    margin-top: 0.5%;
+}
+
+img{
+    height: 3rem;
+}
+
+#stream{
+    height: 50vH;
+}
+
+iframe{
+    display: none;
+    height: 400px;
+    width: 600px;
+    display: block;
+    margin: 4%;
+}
+
+.channel{
+    margin: 3% auto;
+    width: 80%;
+    min-height: 15%;
+    border: 1px solid;
+    border-radius: 5px;
+    background: #2a1b45;
+    color: white;
+    font-family: Muli;
+    transition: 0.3s;
+}
+
+.channel:hover{
+    transform: scale(1.05);
+}
+
+h3{
+    margin-top: 1rem;
+    font-family: Lalezar;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.logo{
+    float: left;
+    width: 6rem;
+    height: 6rem;
+    margin-left: 0.5rem;
+    margin-right: 1.5rem;
+    margin-top: 2rem;
+}
+
+.status{
+    margin-left: 8rem;
+}
